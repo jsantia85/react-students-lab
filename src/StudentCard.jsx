@@ -1,8 +1,9 @@
-const StudentCard = (props) => {
+const StudentCard = ({student}) => {
   return ( 
-    <>
-      <h2>This is a student Card</h2>
-    </>
+    <div className="student-card">
+      <h2>This is {student.name}</h2>
+      <h3>{student.bio}</h3>
+    </div>
   );
 }
 
