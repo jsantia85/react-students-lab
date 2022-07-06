@@ -1,6 +1,12 @@
-const Scores = (props) => {
+import ScoreCard from "./ScoreCard";
+
+const Scores = ({scores}) => {
   return ( 
-    <h2>This is a score component</h2>
+    <>
+      {scores.map(score => 
+        <ScoreCard score={score}/>
+      )}
+    </>
   );
 }
 

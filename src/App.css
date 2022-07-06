@@ -3,6 +3,8 @@
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #202020;
+  color: white;
 }
 
 .card {
@@ -17,7 +19,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid cornflowerblue;
+  border: 1px solid whitesmoke;
+  margin: 30px;
+  padding: 20px;
+}
+
+.score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
   margin: 30px;
   padding: 20px;
 }
